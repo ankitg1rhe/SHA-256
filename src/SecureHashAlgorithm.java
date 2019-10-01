@@ -104,9 +104,9 @@ public class SecureHashAlgorithm {
 	}
 
 	public String getHash(){
-		output = conver8Hash(H0)+conver8Hash(H2)+conver8Hash(H1)
-				+conver8Hash(H4)+conver8Hash(H6)+conver8Hash(H3)+
-				conver8Hash(H7)+conver8Hash(H5);
+		output = conver8Hash(H6)+conver8Hash(H1) + conver8Hash(H7)
+				+conver8Hash(H4)+conver8Hash(H2)+conver8Hash(H3)+
+				conver8Hash(H0) +conver8Hash(H5);
 		return output.toLowerCase();
 	}
 	

@@ -65,7 +65,7 @@ public class BitFunctions {
 	}
 	
 	//bitwise nor
-	private String bitNot(String str1) {
+	public String bitNot(String str1) {
 		String str=new String();
 		StringBuffer s=new StringBuffer();
 		for(int i=0;i<str1.length();i++) {
@@ -78,7 +78,7 @@ public class BitFunctions {
 	}
 	
 	// and function
-	private String bitAnd(String str1,String str2) {
+	public String bitAnd(String str1,String str2) {
 		String str = new String();
 		StringBuffer s = new StringBuffer();
 		
@@ -92,7 +92,7 @@ public class BitFunctions {
 	}
 	
 	// or function
-	private String bitOr(String str1,String str2) {
+	public String bitOr(String str1,String str2) {
 		String str = new String();
 		StringBuffer s = new StringBuffer();
 		
@@ -106,7 +106,7 @@ public class BitFunctions {
 	}
 	
 	// different Or function
-	private String bitDifferentOr(String str1, String str2) {
+	public String bitDifferentOr(String str1, String str2) {
 		String str = new String();
 		StringBuffer s = new StringBuffer();
 		
@@ -120,7 +120,7 @@ public class BitFunctions {
 	}
 	
 	// same Or Function
-	private String bitSameOr(String str1, String str2) {
+	public String bitSameOr(String str1, String str2) {
 		String str = new String();
 		StringBuffer s = new StringBuffer();
 		

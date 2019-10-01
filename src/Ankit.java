@@ -1,5 +1,3 @@
-
-import java.util.*;
 import java.io.*;
 
 public class Ankit {
@@ -14,7 +12,6 @@ public class Ankit {
 		SecureHashAlgorithm sha = new SecureHashAlgorithm(msg);
 		String hashMsg = sha.getHash();
 		System.out.println(hashMsg);
-		 
 	
 	}
 

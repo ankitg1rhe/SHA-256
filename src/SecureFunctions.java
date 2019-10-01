@@ -38,11 +38,6 @@ public class SecureFunctions {
 	}
 	
 	public String binaryToHex(String str) {
-		if(str.length() < 32)
-			str = fillZero(str, 32-str.length());
-		else if(str.length() > 32)
-			str = str.substring(0,32);
-		
 		int a;
 		StringBuffer st = new StringBuffer();
 		
